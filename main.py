@@ -61,7 +61,6 @@ if __name__ == '__main__':
         try:
             df = get_metrics(metric, slugs)
             logging.info(f"Received data for {metric} metric")
-            print(df)
         except Exception as e:
             logging.error(f"SanAPI request failed: {e}")
             continue
