@@ -1,1 +1,1 @@
-crontab -l | { cat; echo "0 * * * * python3 ./santiment_test/main.py"; } | crontab -
+crontab -l | { cat; echo "0 * * * * cd ~/santiment_test && bash run.sh >>~/echo_log.log 2>&1"; } | crontab -
