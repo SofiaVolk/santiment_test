@@ -34,10 +34,11 @@ echo 'select * from <table_name>' | curl 'http://localhost:18123/' --data-binary
 ## Task 2
 Given the tweet data examples from [Twitter API v.2.0](https://developer.twitter.com/en/docs/twitter-api/data-dictionary/example-payloads) suggest a solution which would allow to store and analyze textual and numerical features of tweets in a more efficient way.
 
+
 To store and analyze textual and numerical features of tweets in a more efficient way I propose to define some logical steps:
 
 ### 1. Define all possibly useful textual and numerical features from new API version
-1. Possibly useful textual and numerical features from new API version 
+Possibly useful textual and numerical features from new API version 
 (https://developer.twitter.com/en/docs/twitter-api/data-dictionary/using-fields-and-expansions
 and
 https://developer.twitter.com/en/docs/twitter-api/data-dictionary/example-payloads):
