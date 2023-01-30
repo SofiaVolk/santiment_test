@@ -93,7 +93,7 @@ r = requests.get(url, params=payload, headers=headers)
 - Since I got a json-structured response with nested tweets I want to retrieve those nested tweets, so I will have each tweet in separate json structure. 
 - Next I will drop extra fields from every tweet (ie I don't need 'public_metrics.quote_count' which comes in one scope of 'public_metrics' field; same with 'referenced_tweets.type' field ). 
 - One more thing we can make is to divide posts into categories(ie by asset type - bitcoin, ethereum, etc.) - to achieve this parse the 'text' field of json looking for a key-word 'bitcoin' or 'ethereum'.
-- Another option is to check the author_id is this author is trusted/verified
+- Another option is to check the author_id whether this author is trusted/verified
 - Also there is possible even deeper analytics to understand whether tweet content is truly relevant for us with the help of ml-model. 
 Now I have bunch of relevant tweets with same json-structure and fields.
 
