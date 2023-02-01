@@ -1,7 +1,7 @@
 # santiment_test
 
 ## Task 1
-Code which connects to Santiment API and once an hour get metrics for Bitcoin and Ethereum and store them into a tables in Clockhouse. 
+Code which connects to Santiment API and once an hour get metrics for Bitcoin and Ethereum and store them into a tables in Clickhouse. 
 Choosed metrics: price_usd, volume_usd, marketcap_usd, price_volatility_1d
 
 ### Clone repo 
